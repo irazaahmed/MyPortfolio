@@ -316,6 +316,10 @@
   .testimonials-title {
     margin-bottom: 2rem;
   }
+  .testimonial-slider {
+  position: relative;
+  height: auto;
+}
 }
 
 
