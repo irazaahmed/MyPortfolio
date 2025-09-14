@@ -16,16 +16,13 @@
     />
   </head>
   <body>
-<!-- Loader Sections -->
-<div id="loader" class="loader">
-  <div class="spinner"></div>
-</div>
+    <div id="loader" class="loader">
+      <div class="spinner"></div>
+    </div>
 
-    <!-- Navigation -->
     <nav>
       <div class="nav-container">
         <a href="#" class="logo">Ahmed Raza</a>
-        <!-- <span class="dropdown-icon">▼</span> -->
         <ul class="nav-menu">
           <li><a href="#" class="nav-link">Home </a></li>
           <li><a href="#about-us" class="nav-link">About Us</a></li>
@@ -36,16 +33,32 @@
           <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
           <li><a href="#footer" class="nav-link">Contact Me</a></li>
         </ul>
-
-        <div class="mobile-menu-toggle" onclick="toggleMenu()">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
+        <div class="nav-actions">
+          <button id="theme-toggle" class="theme-toggle-btn">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-moon"
+            >
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+          <button class="mobile-menu-toggle" onclick="toggleMenu()">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </button>
         </div>
       </div>
     </nav>
 
-    <!-- Hero Section -->
     <section class="hero">
       <div class="hero-container">
         <div class="hero-content">
@@ -89,7 +102,6 @@
       </div>
     </section>
 
-    <!-- Scrolling Text -->
     <div class="scrolling-text">
       <div class="scrolling-content">
         <div class="scrolling-item">The Best Solution</div>
@@ -103,10 +115,8 @@
       </div>
     </div>
 
-    <!-- About Section -->
     <section class="about-section" id="about-us">
       <div class="about-container">
-        <!-- Left Content -->
         <div class="about-content">
           <div class="section-label">
             <div class="section-icon"></div>
@@ -127,7 +137,6 @@
             individuals grow.
           </p>
 
-          <!-- Statistics -->
           <div class="stats-container">
             <div class="stat-item">
               <div class="stat-number" data-target="10">3+</div>
@@ -139,7 +148,6 @@
             </div>
           </div>
 
-          <!-- Contact Section -->
           <div class="contact-section">
             <a href="mailto:hafizahmedraza12345@gmail.com" class="about-btn"
               >Contact Me</a
@@ -154,15 +162,7 @@
           </div>
         </div>
 
-        <!-- Right Image Section -->
         <div class="about-image">
-          <!-- Floating Decorative Shapes -->
-          <!-- <div class="floating-shape shape-1"></div>
-          <div class="floating-shape shape-2"></div>
-          <div class="floating-shape shape-3"></div>
-          <div class="diamond-shape"></div> -->
-
-          <!-- Person Image -->
           <div class="person-image">
             <img
               src="Assets/img/My Image 2.png"
@@ -171,35 +171,10 @@
               height="100%"
             />
           </div>
-
-          <!-- UI Elements -->
-          <!-- <div class="ui-element customer-count">
-            <div class="customer-avatars">
-              <div class="avatar">👨</div>
-              <div class="avatar">👩</div>
-              <div class="avatar">👨</div>
-            </div>
-            <div>
-              <div class="count-text">600</div>
-              <div class="count-label">Happy Customer</div>
-            </div>
-          </div>
-
-          <div class="ui-element rating-card">
-            <div class="rating-avatars">
-              <div class="avatar">👨</div>
-              <div class="avatar">👩</div>
-              <div class="avatar">👨</div>
-            </div>
-            <div class="rating-score">4.9</div>
-            <div class="stars">★★★★★</div>
-            <div class="rating-text">12k Reviews On</div>
-          </div> -->
         </div>
       </div>
     </section>
 
-    <!-- Services Section -->
     <section class="services" id="services">
       <div class="services-container">
         <div class="services-header">
@@ -304,7 +279,6 @@
       </div>
     </section>
 
-    <!-- Projects Section -->
     <section class="projects" id="projects">
       <div class="projects-container">
         <div class="projects-header">
@@ -336,7 +310,6 @@
         </div>
 
         <div class="projects-grid">
-          <!-- Project 1 -->
           <div class="project-card">
             <div class="project-image">
               <img src="Assets/img/ai-agent.jpg" alt="AI Agent Dashboard" />
@@ -363,7 +336,6 @@
             </div>
           </div>
 
-          <!-- Project 2 -->
           <div class="project-card">
             <div class="project-image">
               <img src="Assets/img/daraz.jpeg" alt="Daraz-Website" />
@@ -390,7 +362,6 @@
             </div>
           </div>
 
-          <!-- Project 3 -->
           <div class="project-card">
             <div class="project-image">
               <img src="Assets/img/infonest.png" alt="Info Nest" />
@@ -414,7 +385,6 @@
             </div>
           </div>
 
-          <!-- Project 4 -->
           <div class="project-card">
             <div class="project-image">
               <img src="Assets/img/basic-portfolio.png" alt="Portfolio" />
@@ -446,10 +416,8 @@
       </div>
     </section>
 
-    <!-- Experience Section -->
     <section class="experience" id="experience">
       <div class="experience-container">
-        <!-- Header -->
         <div class="experience-header">
           <div class="section-tag">
             <span class="tag-icon">✦</span>
@@ -460,7 +428,6 @@
           </h2>
         </div>
 
-        <!-- Timeline -->
         <div class="timeline">
           <div class="timeline-item">
             <div class="timeline-year">2025</div>
@@ -497,7 +464,6 @@
           </div>
         </div>
 
-        <!-- Skills -->
         <div class="skills-grid">
           <div class="skill-item">
             <div class="skill-icon figma">
@@ -542,9 +508,7 @@
       </div>
     </section>
 
-    <!-- Award and Certification -->
     <section class="awards-section" id="certification">
-      <!-- Section Header -->
       <div class="section-header">
         <div class="section-label">
           <div class="section-icon"></div>
@@ -555,9 +519,7 @@
         </h2>
       </div>
 
-      <!-- Awards Grid -->
       <div class="awards-grid">
-        <!-- Award Card 1 -->
         <div class="award-card">
           <div class="award-icon icon-layers">📱</div>
           <div class="award-content">
@@ -567,7 +529,6 @@
           <div class="trophy-icon">🏆</div>
         </div>
 
-        <!-- Award Card 2 -->
         <div class="award-card">
           <div class="award-icon icon-dribbble">🎯</div>
           <div class="award-content">
@@ -577,7 +538,6 @@
           <div class="trophy-icon">🏆</div>
         </div>
 
-        <!-- Award Card 3 -->
         <div class="award-card">
           <div class="award-icon icon-aperture">📷</div>
           <div class="award-content">
@@ -587,7 +547,6 @@
           <div class="trophy-icon">🏆</div>
         </div>
 
-        <!-- Award Card 4 -->
         <div class="award-card">
           <div class="award-icon icon-pinterest">📌</div>
           <div class="award-content">
@@ -598,7 +557,6 @@
         </div>
       </div>
 
-      <!-- Floating Decorations -->
       <div class="floating-decorations">
         <div class="decoration-shape shape-diamond-1"></div>
         <div class="decoration-shape shape-diamond-2"></div>
@@ -607,10 +565,8 @@
       </div>
     </section>
 
-    <!-- Testimonials Section -->
     <section class="testimonials" id="testimonials">
       <div class="testimonials-container">
-        <!-- Left Side - Header -->
         <div class="testimonials-header">
           <div class="section-tag">
             <span class="tag-icon">✦</span>
@@ -621,7 +577,6 @@
             <span class="highlight">Testimonial</span>
           </h2>
 
-          <!-- Rating Display -->
           <div class="rating-display">
             <div class="rating-number">4.8</div>
             <div class="rating-details">
@@ -637,9 +592,7 @@
           </div>
         </div>
 
-        <!-- Right Side - Testimonial Slider -->
         <div class="testimonial-slider">
-          <!-- Testimonial 1 -->
           <div class="testimonial-card active" data-slide="0">
             <div class="quote-mark">"</div>
             <p class="testimonial-text">
@@ -660,7 +613,6 @@
               </div>
             </div>
           </div>
-          <!-- Pagination Dots -->
           <div class="testimonial-pagination">
             <button class="pagination-dot active" data-slide="0"></button>
             <button class="pagination-dot" data-slide="1"></button>
@@ -672,75 +624,124 @@
       </div>
     </section>
 
-    <!-- Footer section -->
     <footer id="footer">
-  <div class="footer-top">
-    <div class="footer-section">
-      <h3>Address</h3>
-      <p>North Karachi, Power House Chowrangi</p>
-      <p>Karachi, Pakistan</p>
-    </div>
-    <div class="footer-section">
-      <h3>Contact</h3>
-      <p>hafizahmedraza12345@gmail.com</p>
-      <p>+92 313 022 1118</p>
-    </div>
-    <div class="footer-section footer-social">
-      <strong>Social:</strong>
-      <div class="social-icons" aria-label="Social media links">
-        <a href="https://www.facebook.com/irazaahmed" title="Facebook" aria-label="Facebook" rel="noopener noreferrer" target="_blank">
-          <svg viewBox="0 0 24 24"><path d="M22.675 0H1.325C.593 0 .001.592.001 1.324v21.351C.001 23.408.593 24 1.325 24H12.82v-9.295H9.692v-3.622h3.128V8.413c0-3.1 1.892-4.788 4.659-4.788 1.325 0 2.464.099 2.796.143v3.24l-1.918.001c-1.504 0-1.796.715-1.796 1.763v2.311h3.587l-.467 3.622h-3.12V24h6.116c.73 0 1.322-.592 1.322-1.324V1.324C23.997.592 23.405 0 22.675 0z"/></svg>
-        </a>
-        <a href="https://x.com/iraza_ahmed" title="Twitter" aria-label="Twitter" rel="noopener noreferrer" target="_blank">
-          <svg viewBox="0 0 24 24"><path d="M23.954 4.569a10 10 0 01-2.825.775 4.938 4.938 0 002.163-2.723c-.951.564-2.005.974-3.127 1.195a4.92 4.92 0 00-8.38 4.482C7.688 8.094 4.064 6.13 1.64 3.161a4.822 4.822 0 00-.666 2.475c0 1.708.87 3.217 2.188 4.099a4.904 4.904 0 01-2.228-.616v.062a4.936 4.936 0 003.946 4.827 4.996 4.996 0 01-2.224.085 4.936 4.936 0 004.604 3.417A9.868 9.868 0 010 21.539a13.963 13.963 0 007.548 2.212c9.057 0 14.009-7.496 14.009-13.986 0-.21 0-.42-.015-.63A9.936 9.936 0 0024 4.59z"/></svg>
-        </a>
-        <a href="https://www.linkedin.com/in/irazaahmed/" title="LinkedIn" aria-label="LinkedIn" rel="noopener noreferrer" target="_blank">
-          <svg viewBox="0 0 24 24"><path d="M20.452 20.452H16.83v-5.57c0-1.328-.027-3.037-1.85-3.037-1.853 0-2.136 1.447-2.136 2.942v5.665H9.202V9h3.404v1.561h.05c.475-.9 1.635-1.85 3.366-1.85 3.60 0 4.263 2.367 4.263 5.45v6.291zM5.337 7.433a1.973 1.973 0 11-.001-3.946 1.973 1.973 0 01.001 3.946zM7.119 20.452H3.553V9h3.566v11.452zM22.225 0H1.771A1.77 1.77 0 000 1.771v20.451A1.77 1.77 0 001.771 24h20.451A1.77 1.77 0 0024 22.222V1.771A1.77 1.77 0 0022.225 0z"/></svg>
-        </a>
-        <a href="https://www.instagram.com/irazaahmed" title="Instagram" aria-label="Instagram" rel="noopener noreferrer" target="_blank">
-          <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 1.366.062 2.633.336 3.608 1.312.975.975 1.25 2.243 1.312 3.609.058 1.266.069 1.645.069 4.844 0 3.204-.013 3.584-.07 4.85-.062 1.367-.337 2.635-1.313 3.61-.975.976-2.243 1.25-3.609 1.313-1.266.058-1.645.069-4.85.069-3.204 0-3.584-.013-4.85-.07-1.367-.062-2.635-.338-3.61-1.313-.976-.976-1.25-2.244-1.312-3.61C2.176 15.58 2.163 15.2 2.163 12c0-3.2.013-3.58.07-4.85.062-1.366.338-2.634 1.313-3.609C4.52 2.57 5.787 2.295 7.154 2.233 8.42 2.176 8.8 2.163 12 2.163zm0-2.163C8.736 0 8.332.012 7.052.07 5.722.13 4.438.392 3.314 1.516 2.19 2.64 1.93 3.925 1.87 5.254.852 5.88.852 6.122.852 11.999c0 5.84 0 6.122.118 7.889.06 1.328.32 2.613 1.444 3.737 1.124 1.12 2.41 1.383 3.737 1.444 1.768.118 2.06.118 7.899.118 5.871 0 6.116 0 7.888-.118 1.327-.06 2.615-.32 3.743-1.444s1.384-2.41 1.444-3.738c.12-1.768.12-2.057.12-7.888 0-5.877 0-6.117-.12-7.887-.056-1.328-.317-2.614-1.44-3.737-1.128-1.124-2.41-1.383-3.74-1.444-1.79-.118-2.059-.118-7.888-.118zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zm0 10.166a3.995 3.995 0 110-7.99 3.995 3.995 0 010 7.99zm6.406-11.845a1.44 1.44 0 100-2.879 1.44 1.44 0 000 2.879z"/></svg>
-        </a>
+      <div class="footer-top">
+        <div class="footer-section">
+          <h3>Address</h3>
+          <p>North Karachi, Power House Chowrangi</p>
+          <p>Karachi, Pakistan</p>
+        </div>
+        <div class="footer-section">
+          <h3>Contact</h3>
+          <p>hafizahmedraza12345@gmail.com</p>
+          <p>+92 313 022 1118</p>
+        </div>
+        <div class="footer-section footer-social">
+          <strong>Social:</strong>
+          <div class="social-icons" aria-label="Social media links">
+            <a
+              href="https://www.facebook.com/irazaahmed"
+              title="Facebook"
+              aria-label="Facebook"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M22.675 0H1.325C.593 0 .001.592.001 1.324v21.351C.001 23.408.593 24 1.325 24H12.82v-9.295H9.692v-3.622h3.128V8.413c0-3.1 1.892-4.788 4.659-4.788 1.325 0 2.464.099 2.796.143v3.24l-1.918.001c-1.504 0-1.796.715-1.796 1.763v2.311h3.587l-.467 3.622h-3.12V24h6.116c.73 0 1.322-.592 1.322-1.324V1.324C23.997.592 23.405 0 22.675 0z"
+                />
+              </svg>
+            </a>
+            <a
+              href="https://x.com/iraza_ahmed"
+              title="Twitter"
+              aria-label="Twitter"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M23.954 4.569a10 10 0 01-2.825.775 4.938 4.938 0 002.163-2.723c-.951.564-2.005.974-3.127 1.195a4.92 4.92 0 00-8.38 4.482C7.688 8.094 4.064 6.13 1.64 3.161a4.822 4.822 0 00-.666 2.475c0 1.708.87 3.217 2.188 4.099a4.904 4.904 0 01-2.228-.616v.062a4.936 4.936 0 003.946 4.827 4.996 4.996 0 01-2.224.085 4.936 4.936 0 004.604 3.417A9.868 9.868 0 010 21.539a13.963 13.963 0 007.548 2.212c9.057 0 14.009-7.496 14.009-13.986 0-.21 0-.42-.015-.63A9.936 9.936 0 0024 4.59z"
+                />
+              </svg>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/irazaahmed/"
+              title="LinkedIn"
+              aria-label="LinkedIn"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M20.452 20.452H16.83v-5.57c0-1.328-.027-3.037-1.85-3.037-1.853 0-2.136 1.447-2.136 2.942v5.665H9.202V9h3.404v1.561h.05c.475-.9 1.635-1.85 3.366-1.85 3.60 0 4.263 2.367 4.263 5.45v6.291zM5.337 7.433a1.973 1.973 0 11-.001-3.946 1.973 1.973 0 01.001 3.946zM7.119 20.452H3.553V9h3.566v11.452zM22.225 0H1.771A1.77 1.77 0 000 1.771v20.451A1.77 1.77 0 001.771 24h20.451A1.77 1.77 0 0024 22.222V1.771A1.77 1.77 0 0022.225 0z"
+                />
+              </svg>
+            </a>
+            <a
+              href="https://www.instagram.com/irazaahmed"
+              title="Instagram"
+              aria-label="Instagram"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M12 2.163c3.204 0 3.584.012 4.85.07 1.366.062 2.633.336 3.608 1.312.975.975 1.25 2.243 1.312 3.609.058 1.266.069 1.645.069 4.844 0 3.204-.013 3.584-.07 4.85-.062 1.367-.337 2.635-1.313 3.61-.975.976-2.243 1.25-3.609 1.313-1.266.058-1.645.069-4.85.069-3.204 0-3.584-.013-4.85-.07-1.367-.062-2.635-.338-3.61-1.313-.976-.976-1.25-2.244-1.312-3.61C2.176 15.58 2.163 15.2 2.163 12c0-3.2.013-3.58.07-4.85.062-1.366.338-2.634 1.313-3.609C4.52 2.57 5.787 2.295 7.154 2.233 8.42 2.176 8.8 2.163 12 2.163zm0-2.163C8.736 0 8.332.012 7.052.07 5.722.13 4.438.392 3.314 1.516 2.19 2.64 1.93 3.925 1.87 5.254.852 5.88.852 6.122.852 11.999c0 5.84 0 6.122.118 7.889.06 1.328.32 2.613 1.444 3.737 1.124 1.12 2.41 1.383 3.737 1.444 1.768.118 2.06.118 7.899.118 5.871 0 6.116 0 7.888-.118 1.327-.06 2.615-.32 3.743-1.444s1.384-2.41 1.444-3.738c.12-1.768.12-2.057.12-7.888 0-5.877 0-6.117-.12-7.887-.056-1.328-.317-2.614-1.44-3.737-1.128-1.124-2.41-1.383-3.74-1.444-1.79-.118-2.059-.118-7.888-.118zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zm0 10.166a3.995 3.995 0 110-7.99 3.995 3.995 0 010 7.99zm6.406-11.845a1.44 1.44 0 100-2.879 1.44 1.44 0 000 2.879z"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-section">
+          <h3>Useful Links</h3>
+          <a href="#about-us">About Me</a>
+          <a href="#services">Services</a>
+          <a href="#projects">Projects</a>
+          <a href="#experience">Experience</a>
+        </div>
+        <div class="footer-section">
+          <h3>Services</h3>
+          <a href="https://wa.me/923130221118" target="_blank"
+            >Web Development</a
+          >
+          <a href="https://wa.me/923130221118" target="_blank"
+            >Frontend Design</a
+          >
+          <a href="https://wa.me/923130221118" target="_blank"
+            >E-Commerce Solution</a
+          >
+          <a href="https://wa.me/923130221118" target="_blank"
+            >AI and Chatbot Integration</a
+          >
+        </div>
       </div>
-    </div>
-    <div class="footer-section">
-      <h3>Useful Links</h3>
-      <a href="#about-us">About Me</a>
-      <a href="#services">Services</a>
-      <a href="#projects">Projects</a>
-      <a href="#experience">Experience</a>
-    </div>
-    <div class="footer-section">
-      <h3>Services</h3>
-      <a href="https://wa.me/923130221118" target="_blank">Web Development</a>
-      <a href="https://wa.me/923130221118" target="_blank">Frontend Design</a>
-      <a href="https://wa.me/923130221118" target="_blank">E-Commerce Solution</a>
-      <a href="https://wa.me/923130221118" target="_blank">AI and Chatbot Integration</a>
-    </div>
-  </div>
 
-  <div class="footer-bottom">
-    <div class="copyright" aria-label="Copyright information">
-      Copyright©<a href="https://www.linkedin.com/in/irazaahmed/" target="_blank" aria-label="Xiomoi homepage">Ahmed Raza</a>
-    </div>
-    <div class="footer-logo" aria-label="Company logo and name">
+      <div class="footer-bottom">
+        <div class="copyright" aria-label="Copyright information">
+          Copyright©<a
+            href="https://www.linkedin.com/in/irazaahmed/"
+            target="_blank"
+            aria-label="Ahmed Raza LinkedIn"
+            >Ahmed Raza</a
+          >
+        </div>
+        <div class="footer-logo" aria-label="Company logo and name">
+          <a href="https://www.linkedin.com/in/irazaahmed/" target="_blank">
+            <img src="Assets/img/Croped Logo.png" alt="Logo" height="30" />
+          </a>
+          Ahmed Raza
+        </div>
+        <div class="footer-links" aria-label="Terms and privacy links">
+          <a href="#">Terms &amp; Conditions</a>
+          <a href="#">Privacy Policy</a>
+        </div>
+      </div>
+    </footer>
 
-      <a href="https://www.linkedin.com/in/irazaahmed/" target="_blank" "><img src="Assets/img/Croped Logo.png" alt="Logo" height="30" >
-      </a>
-      Ahmed Raza
-    </div>
-    <div class="footer-links" aria-label="Terms and privacy links">
-      <a href="#">Terms &amp; Conditions</a>
-      <a href="#">Privacy Policy</a>
-    </div>
-  </div>
-</footer>
-
-
-
-    
-    <!-- top button -->
     <button id="topBtn" title="Go to top">↑</button>
-    <!-- JS -->
+
     <script src="script.js"></script>
   </body>
 </html>
+
